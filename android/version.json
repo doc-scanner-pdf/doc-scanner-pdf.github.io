@@ -1,0 +1,16 @@
+{
+  "version": "1.0.21",
+  "versionCode": 1000021,
+  "file": "doc-scanner-pdf-1.0.21.apk",
+  "size": 12539093,
+  "sha256": "5d30780b29dbc37c00b7bf3df6a5aae885a33a21a8ca98627fa5575b11b9d454",
+  "signingCertSha256": "fbbc185cbff5abe1a1b28084df36ff590633e67a86341ae8d44963d4c108db45",
+  "minAndroid": "8.0",
+  "sourceCommit": "a0577f5f82831aa7b49d9b6ea91963971304c839",
+  "appCommit": "792cba0a070c51569340109fdb4bbd5e6caf81dc",
+  "publishedAt": "2026-10-22T02:32:26Z",
+  "notes": [
+    "ปิดช่องโหว่ในการเปิดรูป HEIC/HEIF — อัปเกรดตัวถอดรหัส libheif ในแอปจาก 1.23.2 เป็น 1.23.5 ซึ่งแก้ช่องโหว่ที่รูป HEIC ที่สร้างขึ้นโดยเจตนาอาจทำให้หน่วยความจำล้น (heap buffer overflow), แอปค้าง, อ่านข้อมูลเกินขอบเขต หรือใช้หน่วยความจำจนหมด — รูปที่ได้รับจากผู้อื่นจึงเปิดได้ปลอดภัยขึ้น การใช้งานและผลการถอดรหัสเหมือนเดิม",
+    "หน้าดาวน์โหลดและนโยบายความเป็นส่วนตัวย้ายไปที่ https://doc-scanner-pdf.github.io/android/ และโค้ดต้นทางอยู่ที่ chatraweechai/doc-scanner-pdf-code (ที่อยู่เดิมใช้ไม่ได้แล้ว)"
+  ]
+}

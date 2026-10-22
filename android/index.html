@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>สแกนเอกสาร PDF — แอป Android</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <main>
+    <p><a href="../index.html">สแกนเอกสาร PDF — เวอร์ชันเว็บ</a></p>
+    <h1>สแกนเอกสาร PDF — แอป Android</h1>
+    <p>ถ่ายภาพหรือเลือกรูปเอกสาร ครอปตามขอบกระดาษ ลบเงา ปรับให้คมชัด แปลงข้อความ (OCR ไทย + อังกฤษ) และสร้าง PDF ที่ค้นหาข้อความได้
+      — ทำงานในเครื่องทั้งหมด ไม่ต้องใช้อินเทอร์เน็ต สำหรับมือถือและแท็บเล็ต Android 8.0 ขึ้นไป</p>
+    <ul class="apps">
+      <li>
+        <a class="app" href="doc-scanner-pdf-1.0.21.apk" download>
+          <strong>ดาวน์โหลด APK รุ่น 1.0.21</strong>
+          <span>doc-scanner-pdf-1.0.21.apk · 12.0 MB</span>
+        </a>
+      </li>
+    </ul>
+
+    <h2>ติดตั้ง</h2>
+    <ol>
+      <li>กดดาวน์โหลดบนมือถือหรือแท็บเล็ต แล้วเปิดไฟล์ที่ดาวน์โหลด</li>
+      <li>ครั้งแรก Android จะให้อนุญาต "ติดตั้งแอปที่ไม่รู้จัก" ให้เบราว์เซอร์ที่ใช้ดาวน์โหลด</li>
+      <li>เปิดแอป <strong>สแกนเอกสาร PDF</strong> — ครั้งแรกที่ใช้กล้องในแอป Android จะถามสิทธิ์กล้อง</li>
+    </ol>
+    <p><strong>อัปเดต:</strong> ดาวน์โหลดรุ่นใหม่จากหน้านี้แล้วติดตั้งทับได้เลย (ทุกรุ่นเซ็นด้วยกุญแจเดียวกัน)</p>
+
+    <h2>มีอะไรใหม่ในรุ่น 1.0.21</h2>
+    <ul>
+      <li>ปิดช่องโหว่ในการเปิดรูป HEIC/HEIF — อัปเกรดตัวถอดรหัส libheif ในแอปจาก 1.23.2 เป็น 1.23.5 ซึ่งแก้ช่องโหว่ที่รูป HEIC ที่สร้างขึ้นโดยเจตนาอาจทำให้หน่วยความจำล้น (heap buffer overflow), แอปค้าง, อ่านข้อมูลเกินขอบเขต หรือใช้หน่วยความจำจนหมด — รูปที่ได้รับจากผู้อื่นจึงเปิดได้ปลอดภัยขึ้น การใช้งานและผลการถอดรหัสเหมือนเดิม</li>
+    </ul>
+
+    <h2>ความปลอดภัย</h2>
+    <ul>
+      <li>สิทธิ์ที่ขอมีสิทธิ์เดียวคือกล้อง — ไม่มีสิทธิ์อินเทอร์เน็ต ภาพเอกสารไม่ถูกส่งไปที่ใด</li>
+      <li>SHA-256 ของไฟล์ APK: <code class="hash">5d30780b29dbc37c00b7bf3df6a5aae885a33a21a8ca98627fa5575b11b9d454</code></li>
+      <li>ลายนิ้วมือใบรับรองที่เซ็นแอป (SHA-256): <code class="hash">FB:BC:18:5C:BF:F5:AB:E1:A1:B2:80:84:DF:36:FF:59:06:33:E6:7A:86:34:1A:E8:D4:49:63:D4:C1:08:DB:45</code></li>
+      <li>ทุกรุ่นผ่านการทดสอบบนมือถือ มือถือจอเล็ก และแท็บเล็ต (emulator) ก่อนเผยแพร่</li>
+    </ul>
+
+    <p>ใช้บนคอมพิวเตอร์หรือไม่ต้องการติดตั้ง: <a href="../index.html">เวอร์ชันเว็บ</a></p>
+    <p><a href="privacy.html">นโยบายความเป็นส่วนตัว · Privacy policy</a></p>
+  </main>
+</body>
+</html>
